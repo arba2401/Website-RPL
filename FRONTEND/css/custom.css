@@ -1,0 +1,317 @@
+
+/*=============================================================
+    Authour URI: www.binarycart.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFDFB;
+    background-attachment: fixed;
+}
+
+#page-inner {
+    width: fit-content;
+    background-color:#FFFDFB!important;
+    padding:10px;
+    margin-left: 270px;
+    min-height:120px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h2 {
+    color: #87AB69;
+}
+h4 {
+    padding-top:10px;
+}
+.square-btn-adjust {
+    border: 0px solid transparent; 
+    background-color: #FFFDFB;
+    color: #87AB69;
+   -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 10px;
+}
+
+.square-btn-adjust:hover {
+    background-color: #87AB69;
+    color: #FFFDFB;
+}
+
+p {
+    font-size:16px;
+    line-height:25px;
+    padding-top:20px;
+}
+/*==============================================
+   DASHBOARD STYLES    
+    =============================================*/
+
+  
+.noti-box {
+min-height: 100px;
+padding: 20px;
+background-color: #A3C585;
+border-radius: 10px
+}
+
+
+.text-box p{
+    margin: 0 0 0px;
+    color: #FFFDFB;
+}
+.main-text {
+    font-size: 25px;
+    font-weight:600;
+    color: #FFFDFB;
+}
+
+ .icon-box-right {
+display: block;
+float: right;
+margin: 0 15px 10px 0;
+width: 70px;
+height: 70px;
+line-height: 75px;
+vertical-align: middle;
+text-align: center;
+font-size: 40px;
+}
+
+ 
+.back-dash {
+    padding:20px;
+    font-size:20px;
+    font-weight:500;
+      -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+background-color:#2EA7EB;
+color:#FFFDFB;
+}
+  
+
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+
+.user-image {
+margin: 20px auto;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 100px;
+max-height:100px;
+max-width:100px;
+}
+
+.navbar-cls-top .navbar-brand {
+
+box-sizing: border-box;
+position: absolute;
+color: #A3C585;
+background: #FFFDFB;
+border: 2px solid #87AB69;
+border-radius: 10px;
+width: 260px;
+text-align: center;
+height: 60px;
+font-size: 30px;
+font-weight: 700;
+}
+
+.container > a > .navbar-brand{
+    color: #87AB69;
+}
+
+.active-menu {
+    background-color:#FFFDFB;
+    color: #A3C585;
+}
+
+.arrow {
+    float: right;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active > a > .fa.arrow:before {
+    content: "\f107";
+}
+
+
+.nav-second-level li,
+.nav-third-level li {
+    border-bottom: none !important;
+}
+
+.nav-second-level li a {
+    padding-left: 37px;
+}
+
+.nav-third-level li a {
+    padding-left: 55px;
+}
+.sidebar-collapse , .sidebar-collapse .nav{
+	background:none;
+}
+.sidebar-collapse .nav {
+	padding:0;
+}
+.sidebar-collapse .nav > li > a {
+	color:#FFFDFB;
+	background:#A3C585;
+    border: #FFFDFB;
+    border-width: 2px;
+	text-shadow:none;
+    font-size: 18px;
+	
+}
+.sidebar-collapse > .nav > li > a {
+	padding:15px 10px;
+  
+}
+
+.sidebar-collapse > .nav > li {
+	border-bottom: 1px solid #A3C585;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	
+	background:#A3C585;
+    color: #FFFDFB;
+	outline:0;
+}
+
+.nav-second-level > li > a:before ,
+.nav-third-level > li > a:before {
+	content:"";
+	display:block;
+	position:absolute;
+	left:20px;
+	width:15px;
+	height:1px;
+	background:#A3C585;
+	top:20px;
+}
+.nav-second-level > li > a:after,
+.nav-third-level > li > a:after {
+	content:"";
+	display:block;
+	position:absolute;
+	left:20px;
+	width:1px;
+	height:100%;
+	background:#A3C585;
+	top:0px;
+	z-index:10;
+}
+.nav-second-level  > li:last-child > a:after,
+.nav-third-level  > li:last-child > a:after {
+	height:50%;
+}
+.nav-third-level > li > a:after,
+.nav-third-level > li > a:before  {
+	left:40px;
+}
+.navbar-side {
+	border:none;
+	background-color: #A3C585;
+	
+}
+.navbar-cls-top {
+    box-sizing: border-box;
+	background:#FFFDFB;
+	border: 2px solid #87AB69;
+    border-radius: 10px;
+}
+.navbar-cls-top .navbar-brand:hover {
+
+background: #A3C585; /*FFFDFB*/ 
+
+}
+
+.navbar-default {
+border:0px solid #A3C585;
+     
+}
+.navbar-header {
+    background: #FFFDFB;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #A3C585;
+color: #FFFDFB;
+}
+.navbar-default .navbar-toggle {
+border-color: #FFFDFB;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #FFFDFB;
+}
+.nav > li > a > i {
+    margin-right:20px;
+}
+/*==============================================
+    UI ELEMENTS STYLES     
+    =============================================*/
+.btn-circle {
+width: 50px;
+height: 50px;
+padding: 6px 0;
+ -webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+text-align: center;
+font-size: 12px;
+line-height: 1.428571429;
+}
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+ 
+ @media(min-width:768px) {
+     #page-wrapper{
+               margin: 0 0 0 260px;
+        padding: 15px 30px;
+        min-height: 1200px;
+		
+    }
+	
+	
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+    }
+
+   .navbar {
+ border-radius: 0px; 
+}
+   
+}
+
+
