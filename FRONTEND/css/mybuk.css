@@ -1,0 +1,28 @@
+.btn{
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #FFFDFB;
+    border-radius: 4px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar{
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.body{
+    background-color: #FFFDFB;
+}
+.mybooks{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    color: #87ab69;
+    padding-left: 70px;
+}
