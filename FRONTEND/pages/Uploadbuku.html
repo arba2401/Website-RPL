@@ -10,10 +10,10 @@
     <link rel="stylesheet" type="text/css" href="../css/styleRegister.css">
     <link rel="stylesheet" type="text/css" href="../fontawesome/css/all.min.css">
 
-    <title>Register</title>
+    <title>Upload Buku</title>
   </head>
 
-  <nav class="navbar navbar-expand-lg navbar-dark mb-3 shadow p-2" style="background-color: #A3C585;">
+  <nav class="navbar navbar-expand-lg navbar-dark mb-2 shadow p-2" style="background-color: #A3C585;">
   <div class="container">
     <a class="navbar-brand" href="#">
       <img src="../assets/Logo2.png" alt="" width="40" height="34" class="d-inline-block align-text-top">
@@ -37,21 +37,21 @@
   <body>
     <div class="container">
       <form class="form-container">
-          <label for="Regis" class="form-label" style="margin-bottom: 5%;"><h1>Register</h1>
-          <div id="Regis" class="mb-4 form-text">Sign in to Your New Account</div>
+          <label for="Pinjam" class="form-label" style="margin-top: 2%;"><h4><strong>Pinjamkan Buku</strong></h4>
+          	<div id="Pinjam" class="mb-4 form-text"></div>
             
             <div class="row">
               <div class="row">
                 <div class="col-md-6">
                 <div class="mb-3">
-                  <label for="exampleInputName1" class="form-label">Your Full Name</label>
-                  <input type="Fullname" class="form-control" id="exampleInputName" aria-describedby="NameHelp">
+                  <label for="exampleInputName1" class="form-label">Judul Buku</label>
+                  <input type="Bookname" class="form-control" id="exampleInputBuku" aria-describedby="BukuHelp">
                 </div>
                 </div>
                 <div class="col-md-6">
                 <div class="mb-3">
-                  <label for="exampleInputUser1" class="form-label" style="margin-left: 50%">User ID</label>
-                  <input type="User" class="form-control" id="exampleInputUser" aria-describedby="UserHelp" style="margin-left: 50%">
+                  <label for="exampleInputUser1" class="form-label" style="margin-left: 50%">Tahun Terbit</label>
+                  <input type="Bookyear" class="form-control" id="exampleInputYear" aria-describedby="YearHelp" style="margin-left: 50%">
                 </div>
                 </div>
               </div>
@@ -59,14 +59,14 @@
               <div class="row">
                 <div class="col-md-6">
                 <div class="mb-3">
-                  <label for="exampleInputAddress1" class="form-label">Your Current Address</label>
-                  <input type="address" class="form-control" id="exampleInputAddress1">
+                  <label for="exampleInputCover" class="form-label">Upload Cover</label>
+                  <div id="Cover" class="mb-3 form-text"><a href="#"><button type="submit" class="btn" style="background-color: #A3C585; color: white; width: 50%; border-radius: 8px;">Choose File</button></a></div>
                 </div>
                 </div>
                 <div class="col-md-6">
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label" style="margin-left: 50%">Password</label>
-                  <input type="password" class="form-control" id="exampleInputpassword1" style="margin-left: 50%">
+                  <label for="exampleInputlanguage" class="form-label" style="margin-left: 50%">Bahasa</label>
+                  <input type="language" class="form-control" id="exampleInputlanguage" style="margin-left: 50%">
                 </div>
                 </div>
               </div>
@@ -74,14 +74,14 @@
               <div class="row">
                 <div class="col-md-6">
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Your Email Address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1">
+                  <label for="exampleInputDesc" class="form-label">Deskripsi</label>
+                  <input type="Desc" class="form-control" id="exampleInputDesc">
                 </div>
                 </div>
                 <div class="col-md-6">
                 <div class="mb-3">
-                  <label for="exampleInputConfirm1" class="form-label" style="margin-left: 50%">Confirm Password</label>
-                  <input type="confirm" class="form-control" id="exampleInputConfirm1" style="margin-left: 50%">
+                  <label for="exampleInputAddress" class="form-label" style="margin-left: 50%">Alamat Peminjaman</label>
+                  <input type="address" class="form-control" id="exampleInputaddress" style="margin-left: 50%">
                 </div>
                 </div>
               </div>
@@ -89,13 +89,23 @@
               <div class="row">
                 <div class="col-md-6">
                 <div class="mb-3">
-                  <label for="exampleInputPhone1" class="form-label">Your Phone Number</label>
-                  <input type="phone" class="form-control" id="exampleInputPhone1">
+                  <label for="exampleInputWriter" class="form-label">Penulis</label>
+                  <input type="writer" class="form-control" id="exampleInputWriter">
                 </div>
                 </div>
                 <div class="col-md-6">
                 <div class="mb-3">
-                  <a href="Daftarbuku2.html"><button type="submit" class="btn" style="background-color: #A3C585; color: white; border-radius: 8px; margin-left: 100%; margin-top: 10%;">Submit</button></a>
+                  <a href="#"><button type="submit" class="btn" style="background-color: #A3C585; color: white;margin-left: 100%; margin-top: 10%; width: 50%; border-radius: 8px;">Pinjamkan</button></a>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="exampleInputPublisher" class="form-label">Penerbit</label>
+                  <input type="publisher" class="form-control" id="exampleInputPublisher">
                 </div>
                 </div>
               </div>
