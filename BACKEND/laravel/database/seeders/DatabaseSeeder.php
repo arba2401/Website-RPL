@@ -4,6 +4,10 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\User;
+use App\Models\Post;
+use App\Models\Category;
+use App\Models\University;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,11 +18,49 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        User::factory(10)->create();
+        User::create([
+            'name' => 'admin',
+            'email' => 'admin@gmail.com',
+            'password' => bcrypt('12345678'),
+            'nomorhp' => '089876543',
+            'is_admin' => '1',
+            'alamat' => 'Jalan Raya'
+        ]);
+        User::create([
+            'name' => 'peminjam',
+            'email' => 'peminjam@gmail.com',
+            'password' => bcrypt('12345678'),
+            'nomorhp' => '0898765888',
+            'is_admin' => '1',
+            'alamat' => 'Jalan Raya Rumah'
+        ]);
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        Category::create([
+            'name' => 'Sci-fi',
+            'slug' => 'sci-fi',
+        ]);
+        Category::create([
+            'name' => 'Horror',
+            'slug' => 'horror',
+        ]);
+        Category::create([
+            'name' => 'Fiction',
+            'slug' => 'fiction',
+        ]);
+        Category::create([
+            'name' => 'Non Fiction',
+            'slug' => 'non-fiction',
+        ]);
+        Category::create([
+            'name' => 'Drama',
+            'slug' => 'drama',
+        ]);
+        Category::create([
+            'name' => 'Action',
+            'slug' => 'action',
+        ]);
+        Post::factory(10)->create();
+        
     }
 }
