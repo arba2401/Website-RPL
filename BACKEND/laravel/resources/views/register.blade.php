@@ -92,7 +92,7 @@
                     <input type="file" class="form-control" id="inputGroupFile02">
                 </div> --}}
                 
-                {{-- <h5 class="alert border border-3 rounded border-pink-xerabutan p-1 mt-3">
+                {{-- <h5 class="alert border border-3 rounded border-ijo-second p-1 mt-3">
                     <div class="container d-inline-block">
                         <div class="row py-2">
                             <div class="col-1 text-center pe-0">
