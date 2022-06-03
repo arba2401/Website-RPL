@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col m-4">
-            <h1>Selamat datang, {{ auth()->user()->name }}</h1>
+            <h2>Selamat datang, {{ auth()->user()->name }}</h2>
             <h3 class="mt-5 ijo-booklend">Data Diri</h3>
             <h4 class="mt-3">Nama Lengkap</h4>
             <h6>{{ auth()->user()->name }}</h6>

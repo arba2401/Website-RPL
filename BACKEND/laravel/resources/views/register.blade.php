@@ -17,10 +17,10 @@
         <div class="row mx-5">
             <div class="col ijo-booklend">
                 <h1>Registrasi</h1>
-                <p class="fs-5">Lengkapi data berikut untuk melakukan pendaftaran akun.</p>
+                <p class="fs-5 text-dark">Lengkapi data berikut untuk melakukan pendaftaran akun.</p>
             </div>
 
-            <form action="/register" method="post" class="ijo-booklend">
+            <form action="/register" method="post" class="text-dark">
                 @csrf
                 {{-- <div class="form-floating mb-3">
                     <input type="text" name="name" id="floatingInput" class="form-control @error('name') is-invalid @enderror" required value="{{ old('name') }}">
