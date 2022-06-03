@@ -37,7 +37,7 @@
                                 <input type="text" name="search" id="" placeholder="Cari buku disini" class="form-control" value= "{{ request('search') }}">
                             </div>
                             <div class="col">
-                                <button type="submit" class="rounded" style="width: 50px; height: 40px;"><i class="bi bi-search"></i></button>
+                                <button type="submit" class="rounded border-0" style="background-color: white ; width: 50px; height: 40px;"><i class="bi bi-search ijo-booklend"></i></button>
                             </div>
                         </div>
                     </form>
